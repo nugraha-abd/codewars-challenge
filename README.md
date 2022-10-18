@@ -6,4 +6,4 @@ Visit my profile [here](https://www.codewars.com/users/nugraha-abd/)
 
 ## How It's Made:
 
-Tech used: **Javascript**
+Tech used: **Javascript, Golang**
