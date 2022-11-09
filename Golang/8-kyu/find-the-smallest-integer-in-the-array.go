@@ -1,4 +1,4 @@
-package kata
+package Golang
 
 import (
 	"sort"
