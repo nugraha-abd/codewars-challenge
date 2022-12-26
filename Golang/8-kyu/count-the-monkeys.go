@@ -1,4 +1,4 @@
-package kata
+package Golang
 
 func monkeyCount(n int) []int {
 	count := []int{}
