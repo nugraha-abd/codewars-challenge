@@ -7,9 +7,9 @@ import (
 )
 
 func Order(sentence string) string {
-  var result = make([]string, len(sentence))
-  
   splitString := strings.Fields(sentence)
+  
+  var result = make([]string, len(splitString))
   
   for _, word := range splitString {
     for _, letter := range word {
@@ -21,3 +21,7 @@ func Order(sentence string) string {
   }
   return strings.TrimRight(strings.Join(result, " "), " ")
 }
+
+// What I learned:
+// - Get the digit from a string
+// - Convert the digit as a string into int
